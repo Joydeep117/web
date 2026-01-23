@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Python Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Python Web</div>
+            <ul class="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Welcome to Python Web Application</h1>
+                <p class="hero-subtitle">Built with Flask - Simple, Elegant, Powerful</p>
+                <a href="/about" class="btn btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Fast & Lightweight</h3>
+                        <p>Built with Flask for optimal performance and minimal overhead.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Modern Design</h3>
+                        <p>Beautiful, responsive UI that works on all devices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Easy to Deploy</h3>
+                        <p>Simple setup and deployment process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Python Web Application. Built with Flask.</p>
+        </div>
+    </footer>
+</body>
+</html>

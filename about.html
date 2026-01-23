@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Python Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Python Web</div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about" class="active">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <h1 class="page-title">About This Project</h1>
+                <div class="about-content">
+                    <p>This is a simple web application built with Python and Flask framework.</p>
+                    <p>Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.</p>
+                    
+                    <h2>Technologies Used</h2>
+                    <ul class="tech-list">
+                        <li>Python 3</li>
+                        <li>Flask - Web Framework</li>
+                        <li>HTML5 & CSS3 - Frontend</li>
+                    </ul>
+
+                    <h2>Getting Started</h2>
+                    <ol class="steps-list">
+                        <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+                        <li>Run the application: <code>python app.py</code></li>
+                        <li>Open your browser: <code>http://localhost:5000</code></li>
+                    </ol>
+                </div>
+                <a href="/" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Python Web Application. Built with Flask.</p>
+        </div>
+    </footer>
+</body>
+</html>
